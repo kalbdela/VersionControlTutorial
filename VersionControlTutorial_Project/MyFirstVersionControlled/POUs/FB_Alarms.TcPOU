@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
+  <POU Name="FB_Alarms" Id="{d2513749-01b3-4d38-a6bd-fec59f5b66e3}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK FB_Alarms
+VAR_INPUT
+END_VAR
+VAR_OUTPUT
+END_VAR
+VAR
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[]]></ST>
+    </Implementation>
+    <Method Name="M_IntializeAlarms" Id="{ee998365-2dc3-4348-b184-4d2a49cea2fe}">
+      <Declaration><![CDATA[METHOD M_IntializeAlarms
+VAR_INPUT
+END_VAR
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
+    <LineIds Name="FB_Alarms">
+      <LineId Id="9" Count="0" />
+    </LineIds>
+    <LineIds Name="FB_Alarms.M_IntializeAlarms">
+      <LineId Id="5" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>

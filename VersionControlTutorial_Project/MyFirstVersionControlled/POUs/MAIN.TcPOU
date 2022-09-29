@@ -4,14 +4,15 @@
     <Declaration><![CDATA[PROGRAM MAIN
 VAR
 	fbCounter : FB_Counter;
+	fbCounter2 : FB_Counter;
 	
 END_VAR
 ]]></Declaration>
     <Implementation>
-      <ST><![CDATA[fbCounter.M_AddCounterValue();]]></ST>
+      <ST><![CDATA[fbCounter.M_AddCounterValue();
+
+fbCounter2.M_AddCounterValue();
+]]></ST>
     </Implementation>
-    <LineIds Name="MAIN">
-      <LineId Id="2" Count="0" />
-    </LineIds>
   </POU>
 </TcPlcObject>

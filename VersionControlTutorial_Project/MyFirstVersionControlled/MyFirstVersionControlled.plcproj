@@ -20,6 +20,9 @@
     <Compile Include="PlcTask.TcTTO">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="POUs\FB_Alarms.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="POUs\FB_CommandAndControl.TcPOU">
       <SubType>Code</SubType>
     </Compile>
