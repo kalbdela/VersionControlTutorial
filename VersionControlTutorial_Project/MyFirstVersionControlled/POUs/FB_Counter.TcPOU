@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
+  <POU Name="FB_Counter" Id="{fb7c3b3d-8d82-4d2d-a702-d92db386dd1f}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK FB_Counter
+
+VAR
+	vdiCounterValue : DINT;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[]]></ST>
+    </Implementation>
+    <Method Name="M_AddCounterValue" Id="{8b473c10-0a6a-4c5d-8d38-555b2241fc26}">
+      <Declaration><![CDATA[METHOD M_AddCounterValue
+VAR
+END_VAR
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[vdiCounterValue := vdiCounterValue + 1;
+]]></ST>
+      </Implementation>
+    </Method>
+    <LineIds Name="FB_Counter">
+      <LineId Id="9" Count="0" />
+    </LineIds>
+    <LineIds Name="FB_Counter.M_AddCounterValue">
+      <LineId Id="5" Count="1" />
+    </LineIds>
+  </POU>
+</TcPlcObject>
