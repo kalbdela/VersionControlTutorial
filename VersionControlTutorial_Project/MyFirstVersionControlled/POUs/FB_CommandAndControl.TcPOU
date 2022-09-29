@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.9">
+  <POU Name="FB_CommandAndControl" Id="{a2e6dd55-964d-4226-8a10-c1b60ea3b5a8}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION_BLOCK FB_CommandAndControl
+VAR_INPUT
+END_VAR
+VAR_OUTPUT
+END_VAR
+VAR
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[]]></ST>
+    </Implementation>
+    <Method Name="M_InitializeCounter" Id="{449694b4-695b-40c5-bd17-db12b965b5a7}">
+      <Declaration><![CDATA[METHOD M_InitializeCounter
+VAR_INPUT
+END_VAR
+]]></Declaration>
+      <Implementation>
+        <ST><![CDATA[]]></ST>
+      </Implementation>
+    </Method>
+    <LineIds Name="FB_CommandAndControl">
+      <LineId Id="9" Count="0" />
+    </LineIds>
+    <LineIds Name="FB_CommandAndControl.M_InitializeCounter">
+      <LineId Id="5" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>
